@@ -61,7 +61,7 @@ gcc src/*.c -Iinclude -o otp_manager.exe
 otp_manager.exe
 </pre>---
 
-<h3>📦 Alternative (ZIP Download)</h3><ul>
+<h3> Alternative (ZIP Download)</h3><ul>
   <li>Go to GitHub repository</li>
   <li>Click <b>Code → Download ZIP</b></li>
   <li>Extract and open <b>OTP Manager</b> folder</li>
@@ -69,11 +69,11 @@ otp_manager.exe
 </ul>---
 
 <h2 style="color:#4CAF50;">🔐 Admin Dashboard</h2><ul>
-  <li>📊 View statistics</li>
-  <li>👤 Search OTP</li>
-  <li>❌ Force expire OTP</li>
-  <li>📜 View logs</li>
-  <li>🧹 Clear history</li>
+  <li> View statistics</li>
+  <li> Search OTP</li>
+  <li> Force expire OTP</li>
+  <li> View logs</li>
+  <li> Clear history</li>
 </ul>---
 
 <h2 style="color:#FF5722;">📂 File Handling</h2><ul>
@@ -94,7 +94,7 @@ otp_manager.exe
   <li>Local system only</li>
 </ul>---
 
-<h2 style="color:#009688;">🔮 Future Improvements</h2><ul>
+<h2 style="color:#009688;"> Future Improvements</h2><ul>
   <li>SMS API integration</li>
   <li>GUI version</li>
   <li>Database support</li>
