@@ -1,5 +1,5 @@
 <h1 align="center" style="color:#4CAF50;">🔐 OTP Manager System</h1><p align="center">
-  <b>A Terminal-based OTP Generation & Validation System in C</b>
+  <b>A Terminal-based OTP Generation & Validation System</b>
 </p><hr><h2 style="color:#2196F3;">📌 Overview</h2><p>
 The <b>OTP Manager System</b> is a C-based project that simulates a real-world OTP authentication system.
 It generates unique OTPs, assigns them to users, validates them within a fixed time, and manages expiration securely.
@@ -102,6 +102,7 @@ otp_manager.exe
 </ul>---
 
 <h2 style="color:#F44336;">⚠️ Notes</h2><ul>
+  <li> Used Lengauge C</li>
   <li>Works on Linux, Termux, Windows</li>
   <li>Terminal-based application</li>
 </ul>---
