@@ -1,126 +1,106 @@
 <h1 align="center" style="color:#4CAF50;">🔐 OTP Manager System</h1><p align="center">
-  <b>A Terminal-based Password Validity Management System in C</b>
+  <b>A Terminal-based OTP Generation & Validation System in C</b>
 </p><hr><h2 style="color:#2196F3;">📌 Overview</h2><p>
-The <b>OTP Manager System</b> is a C-based project that simulates a real-world 
-<b>OTP authentication and management system</b>. It generates a pool of OTPs, assigns them to users,
-validates them within a time limit, and securely reuses them after expiration.
+The <b>OTP Manager System</b> is a C-based project that simulates a real-world OTP authentication system.
+It generates unique OTPs, assigns them to users, validates them within a fixed time, and manages expiration securely.
 </p>---
 
 <h2 style="color:#FF9800;">🚀 Features</h2><ul>
-  <li>🔢 Generate 1000 unique OTPs (4-digit & 6-digit)</li>
-  <li>⏳ Time-based validity (10 minutes)</li>
+  <li>🔢 Generate unique OTPs (4-digit & 6-digit)</li>
+  <li>⏳ Time-based OTP validity</li>
   <li>🔁 OTP reuse after expiry</li>
-  <li>❌ No duplicate active OTP</li>
-  <li>👤 User-based OTP assignment</li>
-  <li>✅ OTP verification system</li>
+  <li>❌ No duplicate OTP during active session</li>
+  <li>👤 User-based OTP system</li>
+  <li>✅ OTP verification</li>
   <li>📊 Admin Dashboard</li>
   <li>📜 Logging system</li>
-  <li>💾 File storage</li>
+  <li>💾 File storage support</li>
   <li>🎨 Colorful Terminal UI</li>
 </ul>---
 
 <h2 style="color:#9C27B0;">🧠 System Workflow</h2><p align="center">
 <b>
-Generate OTP Pool → Assign OTP → Verify OTP → Expire OTP → Reuse OTP
+Generate → Assign → Verify → Expire → Reuse
 </b>
 </p>---
 
 <h2 style="color:#E91E63;">🏗️ Project Structure</h2><pre>
 OTP_Manager/
 │
-├── src/
-│   ├── main.c
-│   ├── otp.c
-│   ├── admin.c
-│   ├── storage.c
-│   ├── logger.c
-│   └── ui.c
-│
-├── include/
-│   ├── otp.h
-│   ├── admin.h
-│   ├── storage.h
-│   ├── logger.h
-│   └── ui.h
-│
-├── data/
-│   ├── otp_history.txt
-│   └── logs.txt
+├── OTP Manager/
+│   ├── src/
+│   ├── include/
+│   ├── data/
+│   ├── Makefile
+│   └── otp_manager.exe
 │
 └── README.md
 </pre>---
 
 <h2 style="color:#00BCD4;">⬇️ Download & Run</h2><h3>📱 Termux (Android)</h3><pre>
-pkg update
-pkg install git clang
+cd ~
+rm -rf OTP_Manager
 git clone https://github.com/DipX404/OTP_Manager.git
 cd OTP_Manager
+cd "OTP Manager"
 clang src/*.c -Iinclude -o otp_manager
 ./otp_manager
 </pre>---
 
 <h3>🐧 Linux (Ubuntu/Kali)</h3><pre>
-sudo apt update
-sudo apt install git gcc
 git clone https://github.com/DipX404/OTP_Manager.git
 cd OTP_Manager
+cd "OTP Manager"
 gcc src/*.c -Iinclude -o otp_manager
 ./otp_manager
 </pre>---
 
-<h3>🖥️ Windows (VS Code)</h3><pre>
+<h3>🖥️ Windows (VS Code / Terminal)</h3><pre>
 git clone https://github.com/DipX404/OTP_Manager.git
 cd OTP_Manager
+cd "OTP Manager"
 gcc src/*.c -Iinclude -o otp_manager.exe
 otp_manager.exe
 </pre>---
 
-<h3>📦 Alternative (ZIP)</h3><ul>
+<h3>📦 Alternative (ZIP Download)</h3><ul>
   <li>Go to GitHub repository</li>
   <li>Click <b>Code → Download ZIP</b></li>
-  <li>Extract and run</li>
+  <li>Extract and open <b>OTP Manager</b> folder</li>
+  <li>Compile & run</li>
 </ul>---
 
 <h2 style="color:#4CAF50;">🔐 Admin Dashboard</h2><ul>
-  <li>📊 View system statistics</li>
-  <li>👤 Search user OTP</li>
+  <li>📊 View statistics</li>
+  <li>👤 Search OTP</li>
   <li>❌ Force expire OTP</li>
   <li>📜 View logs</li>
   <li>🧹 Clear history</li>
-  <li>🔄 Reset system</li>
 </ul>---
 
 <h2 style="color:#FF5722;">📂 File Handling</h2><ul>
-  <li><b>otp_history.txt</b> → Stores OTP records</li>
-  <li><b>logs.txt</b> → Stores system logs</li>
+  <li><b>otp_history.txt</b> → OTP records</li>
+  <li><b>logs.txt</b> → System logs</li>
 </ul>---
 
 <h2 style="color:#3F51B5;">🎯 Objectives</h2><ul>
-  <li>Implement OTP generation and validation</li>
-  <li>Ensure security using time-based expiry</li>
+  <li>Implement OTP system using C</li>
+  <li>Ensure time-based security</li>
   <li>Prevent duplicate OTP usage</li>
-  <li>Simulate real-world authentication systems</li>
+  <li>Simulate real-world authentication</li>
 </ul>---
 
-<h2 style="color:#F44336;">⚠️ Limitations</h2><ul>
-  <li>No GUI (Terminal-based)</li>
-  <li>No SMS/email integration</li>
-  <li>Local system only</li>
-</ul>---
-
-<h2 style="color:#009688;">🔮 Future Improvements</h2><ul>
-  <li>SMS API integration</li>
-  <li>GUI version</li>
-  <li>Database support</li>
-  <li>Web-based system</li>
+<h2 style="color:#F44336;">⚠️ Notes</h2><ul>
+  <li>Use <b>int</b> instead of <b>char</b> for fgetc()</li>
+  <li>Works on Linux, Termux, Windows</li>
+  <li>Terminal-based application</li>
 </ul>---
 
 <h2 style="color:#795548;">👨‍💻 Author</h2><p>
 <b>Mongaldip Chowdhury</b><br>
-C Programming Project (College Level)
+College Level C Project
 </p>---
 
-<h2 align="center" style="color:#4CAF50;">⭐ Thank You</h2>
-<p align="center">
+<h2 align="center" style="color:#4CAF50;">⭐ Thank You</h2><p align="center">
 If you like this project, give it a ⭐ on GitHub!
 </p>
