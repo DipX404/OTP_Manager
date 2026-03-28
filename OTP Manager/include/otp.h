@@ -14,15 +14,15 @@ typedef struct
     char user[50];
 } OTP;
 
-void generateOTP();          // old
-void verifyOTP();            // old
-void showActiveOTP();        // old
-void deleteExpiredOTP();     // old
+void generateOTP();          
+void verifyOTP();            
+void showActiveOTP();        
+void deleteExpiredOTP();     
 
-void initOTPPool();          // NEW
-void assignOTP();            // NEW
+void initOTPPool();          
+void assignOTP();            
 
-//Admin Dashbord
+// For Admin Dashboard
 void showStats();
 void searchUserOTP();
 void forceExpireOTP();
