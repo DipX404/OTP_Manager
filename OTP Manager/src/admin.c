@@ -187,8 +187,8 @@ void adminPanel()
         {
             printf(CYAN "\n[LOG FILE]\n" RESET);
             FILE *f = fopen("data/logs.txt","r");
-            char ch;
-            while((ch=fgetc(f))!=EOF)
+            int ch;
+            while((ch=fgetc(f))!=EOF)   
                 putchar(ch);
             fclose(f);
             break;
