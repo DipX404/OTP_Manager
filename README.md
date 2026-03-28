@@ -38,8 +38,6 @@ OTP_Manager/
 </pre>---
 
 <h2 style="color:#00BCD4;">⬇️ Download & Run</h2><h3>📱 Termux (Android)</h3><pre>
-cd ~
-rm -rf OTP_Manager
 git clone https://github.com/DipX404/OTP_Manager.git
 cd OTP_Manager
 cd "OTP Manager"
@@ -84,14 +82,26 @@ otp_manager.exe
 </ul>---
 
 <h2 style="color:#3F51B5;">🎯 Objectives</h2><ul>
-  <li>Implement OTP system using C</li>
-  <li>Ensure time-based security</li>
+  <li>Implement OTP generation and validation</li>
+  <li>Ensure security using time-based expiry</li>
   <li>Prevent duplicate OTP usage</li>
-  <li>Simulate real-world authentication</li>
+  <li>Simulate real-world authentication systems</li>
+</ul>---
+
+<h2 style="color:#F44336;">⚠️ Limitations</h2><ul>
+  <li>No GUI (Terminal-based)</li>
+  <li>No SMS/email integration</li>
+  <li>Local system only</li>
+</ul>---
+
+<h2 style="color:#009688;">🔮 Future Improvements</h2><ul>
+  <li>SMS API integration</li>
+  <li>GUI version</li>
+  <li>Database support</li>
+  <li>Web-based system</li>
 </ul>---
 
 <h2 style="color:#F44336;">⚠️ Notes</h2><ul>
-  <li>Use <b>int</b> instead of <b>char</b> for fgetc()</li>
   <li>Works on Linux, Termux, Windows</li>
   <li>Terminal-based application</li>
 </ul>---
