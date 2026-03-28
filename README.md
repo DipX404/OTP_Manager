@@ -50,13 +50,36 @@ OTP_Manager/
 └── README.md
 </pre>---
 
-<h2 style="color:#00BCD4;">⚙️ How to Run</h2><h3>🖥️ Linux / Termux</h3><pre>
+<h2 style="color:#00BCD4;">⬇️ Download & Run</h2><h3>📱 Termux (Android)</h3><pre>
+pkg update
+pkg install git clang
+git clone https://github.com/DipX404/OTP_Manager.git
+cd OTP_Manager
 clang src/*.c -Iinclude -o otp_manager
 ./otp_manager
-</pre><h3>🪟 Windows</h3><pre>
+</pre>---
+
+<h3>🐧 Linux (Ubuntu/Kali)</h3><pre>
+sudo apt update
+sudo apt install git gcc
+git clone https://github.com/DipX404/OTP_Manager.git
+cd OTP_Manager
+gcc src/*.c -Iinclude -o otp_manager
+./otp_manager
+</pre>---
+
+<h3>🖥️ Windows (VS Code)</h3><pre>
+git clone https://github.com/DipX404/OTP_Manager.git
+cd OTP_Manager
 gcc src/*.c -Iinclude -o otp_manager.exe
 otp_manager.exe
 </pre>---
+
+<h3>📦 Alternative (ZIP)</h3><ul>
+  <li>Go to GitHub repository</li>
+  <li>Click <b>Code → Download ZIP</b></li>
+  <li>Extract and run</li>
+</ul>---
 
 <h2 style="color:#4CAF50;">🔐 Admin Dashboard</h2><ul>
   <li>📊 View system statistics</li>
