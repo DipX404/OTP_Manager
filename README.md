@@ -98,7 +98,7 @@ otp_manager.exe
 
 <h2 style="color:#795548;">👨‍💻 Author</h2><p>
 <b>Mongaldip Chowdhury</b><br>
-College Level C Project
+Student Of B.Tech.CSE - Cyber Security at Brainware University
 </p>---
 
 <h2 align="center" style="color:#4CAF50;">⭐ Thank You</h2><p align="center">
