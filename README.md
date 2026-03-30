@@ -107,10 +107,10 @@ otp_manager.exe
   <li>Terminal-based application</li>
 </ul>
 
-<h2 style="color:#795548;">👨‍💻 Author</h2><p>
+<!-- <h2 style="color:#795548;">👨‍💻 Author</h2><p>
 <b>Mongaldip Chowdhury</b><br>
 Student Of B.Tech.CSE - Cyber Security at Brainware University
-</p>
+</p> -->
 
 <h2 align="center" style="color:#4CAF50;">⭐ Thank You</h2><p align="center">
 If you like this project, give it a ⭐ on GitHub!
