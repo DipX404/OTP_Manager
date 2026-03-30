@@ -28,9 +28,9 @@ void initOTPPool()
         int otp;
 
         do {
-            otp = rand()%900000 + 100000;
+           // otp = rand()%900000 + 100000;
            // otp = (rand() * rand()) % 900000 + 100000;
-            //otp = (rand() ^ (rand() << 5)) % 900000 + 100000;
+           otp = (rand() ^ (rand() << 5)) % 900000 + 100000;
         } while(isDuplicate(otp, i));
 
         otp_list[i].code = otp;
