@@ -3,7 +3,7 @@
 </p><hr><h2 style="color:#2196F3;">📌 Overview</h2><p>
 The <b>OTP Manager System</b> is a C-based project that simulates a real-world OTP authentication system.
 It generates unique OTPs, assigns them to users, validates them within a fixed time, and manages expiration securely.
-</p>---
+</p>
 
 <h2 style="color:#FF9800;">🚀 Features</h2><ul>
   <li>🔢 Generate unique OTPs (4-digit & 6-digit)</li>
@@ -16,13 +16,13 @@ It generates unique OTPs, assigns them to users, validates them within a fixed t
   <li>📜 Logging system</li>
   <li>💾 File storage support</li>
   <li>🎨 Colorful Terminal UI</li>
-</ul>---
+</ul>
 
 <h2 style="color:#9C27B0;">🧠 System Workflow</h2><p align="center">
 <b>
 Generate → Assign → Verify → Expire → Reuse
 </b>
-</p>---
+</p>
 
 <h2 style="color:#E91E63;">🏗️ Project Structure</h2><pre>
 OTP_Manager/
@@ -35,7 +35,7 @@ OTP_Manager/
 │   └── otp_manager.exe
 │
 └── README.md
-</pre>---
+</pre>
 
 <h2 style="color:#00BCD4;">⬇️ Download & Run</h2><h3>📱 Termux (Android)</h3><pre>
 git clone https://github.com/DipX404/OTP_Manager.git
@@ -43,7 +43,7 @@ cd OTP_Manager
 cd "OTP Manager"
 clang src/*.c -Iinclude -o otp_manager
 ./otp_manager
-</pre>---
+</pre>
 
 <h3>🐧 Linux (Ubuntu/Kali)</h3><pre>
 git clone https://github.com/DipX404/OTP_Manager.git
@@ -51,7 +51,7 @@ cd OTP_Manager
 cd "OTP Manager"
 gcc src/*.c -Iinclude -o otp_manager
 ./otp_manager
-</pre>---
+</pre>
 
 <h3>🖥️ Windows (VS Code / Terminal)</h3><pre>
 git clone https://github.com/DipX404/OTP_Manager.git
@@ -59,14 +59,14 @@ cd OTP_Manager
 cd "OTP Manager"
 gcc src/*.c -Iinclude -o otp_manager.exe
 otp_manager.exe
-</pre>---
+</pre>
 
 <h3> Alternative (ZIP Download)</h3><ul>
   <li>Go to GitHub repository</li>
   <li>Click <b>Code → Download ZIP</b></li>
   <li>Extract and open <b>OTP Manager</b> folder</li>
   <li>Compile & run</li>
-</ul>---
+</ul>
 
 <h2 style="color:#4CAF50;">🔐 Admin Dashboard</h2><ul>
   <li> View statistics</li>
@@ -74,43 +74,43 @@ otp_manager.exe
   <li> Force expire OTP</li>
   <li> View logs</li>
   <li> Clear history</li>
-</ul>---
+</ul>
 
 <h2 style="color:#FF5722;">📂 File Handling</h2><ul>
   <li><b>otp_history.txt</b> → OTP records</li>
   <li><b>logs.txt</b> → System logs</li>
-</ul>---
+</ul>
 
 <h2 style="color:#3F51B5;">🎯 Objectives</h2><ul>
   <li>Implement OTP generation and validation</li>
   <li>Ensure security using time-based expiry</li>
   <li>Prevent duplicate OTP usage</li>
   <li>Simulate real-world authentication systems</li>
-</ul>---
+</ul>
 
 <h2 style="color:#F44336;">⚠️ Limitations</h2><ul>
   <li>No GUI (Terminal-based)</li>
   <li>No SMS/email integration</li>
   <li>Local system only</li>
-</ul>---
+</ul>
 
 <h2 style="color:#009688;"> Future Improvements</h2><ul>
   <li>SMS API integration</li>
   <li>GUI version</li>
   <li>Database support</li>
   <li>Web-based system</li>
-</ul>---
+</ul>
 
 <h2 style="color:#F44336;">⚠️ Notes</h2><ul>
   <li> Used Lengauge C</li>
   <li>Works on Linux, Termux, Windows</li>
   <li>Terminal-based application</li>
-</ul>---
+</ul>
 
 <h2 style="color:#795548;">👨‍💻 Author</h2><p>
 <b>Mongaldip Chowdhury</b><br>
 Student Of B.Tech.CSE - Cyber Security at Brainware University
-</p>---
+</p>
 
 <h2 align="center" style="color:#4CAF50;">⭐ Thank You</h2><p align="center">
 If you like this project, give it a ⭐ on GitHub!
